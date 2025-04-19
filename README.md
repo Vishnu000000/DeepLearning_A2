@@ -30,7 +30,7 @@ This project explores two approaches to classify images from the iNaturalist dat
 ### Shared Parameters  
 - **Dropout**: `[0, 0.2, 0.4]`  
 - **Batch Size**: `[32, 64]`  
-- **Data Augmentation**: Enabled/Disabled  
+- **Data Augmentation**: True/ False  
 
 ### Part A-Specific  
 - **Activation Functions**: `['relu', 'elu', 'selu']`  
@@ -38,10 +38,8 @@ This project explores two approaches to classify images from the iNaturalist dat
 - **Regularization**: L2 weight decay (`[0, 0.00005, 0.0005]`).  
 
 ### Part B-Specific  
-- **Base Models**: `['inceptionv3', 'resnet', 'xception']`  
-- **Freezing Ratios**: `[0%, 33.3%, 66.6%, 100%]` (proportion of frozen base layers).  
+- **Base Models**: `['resnet', 'xception']` 
 - **Dense Layers**: Neurons per layer `[128, 256, 512]`.  
-
 ---
 
 ## Implementation Details  
@@ -86,5 +84,4 @@ This project explores two approaches to classify images from the iNaturalist dat
 
 ---
 
-## Reproducibility  
  
