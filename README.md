@@ -78,7 +78,7 @@ This project explores two approaches to classify images from the iNaturalist dat
 
 ## Results & Analysis  
 ### WandB Report  
-- **Link**: [Performance Metrics and Ablation Studies](https://wandb.ai/cs24m022-iit-madras-foundation/Deep_Learning_Assignment2_cs24m022/reports/Assignment-2--VmlldzoxMjM2NjYyNw)  
+- **Link**: [Link for Report](https://wandb.ai/cs24m022-iit-madras-foundation/Deep_Learning_Assignment2_cs24m022/reports/Assignment-2--VmlldzoxMjM2NjYyNw)  
 - **Key Insights**:  
   - Impact of freezing strategies on transfer learning efficiency.  
   - Trade-offs between data augmentation and training time.  
